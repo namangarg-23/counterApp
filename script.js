@@ -19,4 +19,6 @@ function save() {
     temp += count + " - "
     prev.innerText = temp
     // prev.textContent=temp
+    count=0
+    document.getElementById("count-ele").innerText=count
 }
